@@ -1,0 +1,20 @@
+The Deatiled Installation steps are given [here](https://openroad-flow-scripts.readthedocs.io/en/latest/user/BuildLocally.html) 
+
+Here I will be giving out the steps to be followed. 
+
+Install KLayout (OpenROAD Flow requires KLayout) It can be directly installed from the [Klayout-website](https://www.klayout.de/) 
+
+Make sure the necessary packages are installed : 
+
+a. libffi-devel
+
+b. tcl
+
+c. pandas Python library Available from pip (e.g., python3-pip ) to install pandas: pip3 install --user pandas
+
+Clone and Build:
+
+git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+cd OpenROAD-flow-scripts
+./build_openroad.sh --local
+
