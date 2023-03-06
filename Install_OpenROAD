@@ -18,3 +18,24 @@ git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scri
 cd OpenROAD-flow-scripts
 ./build_openroad.sh --local
 
+
+After the installation is done you can check the working of the OPENROAD & YOSYS by going to the directory /OpenROAD-flow-scripts/tools/install/OpenROAD/bin
+and typing the command 
+
+openroad
+
+this will run the openroad you can type 
+
+openraod -gui 
+
+for graphical interface.
+
+
+Follow the same steps for yosys by going in ~/install/yosys/bin
+
+yosys
+
+yosys -help
+
+
+NOTE : at the time of installation the setup may end up abruptly one of the reason for that is low RAM/memory availaiblity. Increase the swap memory to deal with this error.
